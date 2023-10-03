@@ -1,0 +1,60 @@
+< {%
+	client.global.set('baseUrl', 'http://localhost:3000');
+%}
+
+# @name teste
+GET {{baseUrl}}
+Content-Type: application/json
+
+{
+}
+
+###
+
+# @name categories
+GET {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+# @name categorie
+GET {{baseUrl}}/categories/1
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+# @name categorie
+POST {{baseUrl}}/categories/1
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+# @name categorie
+PATCH {{baseUrl}}/categories/1
+Content-Type: application/json
+
+{
+
+}
+
+###
+
+# @name categorie
+DELETE {{baseUrl}}/categories/1
+Content-Type: application/json
+
+{
+
+}
